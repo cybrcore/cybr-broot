@@ -1,29 +1,28 @@
-```
-░▒▓███████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓██████▓▒░▒▓████████▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░     
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░     
-░▒▓███████▓▒░░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░     
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░     
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░     
-░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░ ░▒▓██████▓▒░  ░▒▓█▓▒░     
-```
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-broot-banner.png" height=200px/>
 
-<img src="../assets/inspiration/insp-broot.png"/></td>
+# Showcase
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-broot.png"/>
 
 # Steps
 ## 0. Before you start
-- Make sure [Geist Mono Nerd Font](../INSTALL.md#prerequisites--setup) is installed
-- Make sure kitty is installed: `sudo pacman -S kitty` and theme is applied
+- Make sure [Geist Mono Nerd Font](../INSTALL.md#prerequisites--setup#Fonts) is installed, you can do that from terminal with:
+```bash
+curl -L https://github.com/ryanoasis/nerd-fonts/releases/latest/download/GeistMono.zip -o GeistMono.zip
+mkdir -p ~/.local/share/fonts
+unzip GeistMono.zip -d ~/.local/share/fonts/GeistMono
+fc-cache -fv
+```
+- Make sure kitty is installed: `sudo pacman -S kitty` and [cybrcore theme](https://github.com/cybrcore/cybr-kitty) is applied
 - Make sure broot is installed: `sudo pacman -S broot`
-- See [Installation Guide](../INSTALL.md) if you haven't set up prerequisites yet
-- [Github](https://github.com/Canop/broot)
+- See [Installation Guide](https://github.com/cybrcore/cybrland/blob/main/INSTALL.md) if you`re coming from [cybr-hyprland](https://github.com/cybrcore/cybrland) and haven't set up prerequisites yet
+- [broot Github repo](https://github.com/Canop/broot)
 
 ## 1. Create theme folder and file
 ```sh
 mkdir -p ~/.config/broot/skins
-$EDITOR ~/.config/broot/skins/CYBRbroot.hjson
+$EDITOR ~/.config/broot/skins/cybrcore.hjson
 ```
-## 2. Insert [CYBRbroot](CYBRbroot.hjson)
+## 2. Insert [cybr-bat theme](cybrcore.hjson)
 ## 3. Apply theme
 ```sh
 # Open config
@@ -34,7 +33,7 @@ true_colors: true
 icon_theme: nerdfont
 
 # Add skin under luma: [dark] section
-file: skins/CYBRbroot.hjson
+file: skins/cybrcore.hjson
 
 # It should look like this:
 {
@@ -44,7 +43,7 @@ luma: [
 ]
 //file: foo.hjson
 //file: bar.hjson
-file: skins/CYBRbroot.hjson
+file: skins/cybrcore.hjson
 }
 ```
 ## 4. Restart terminal

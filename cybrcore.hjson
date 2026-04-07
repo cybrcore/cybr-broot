@@ -1,31 +1,31 @@
 # ---------------------------------------
-# CYBRbroot   broot theme (part of cybrland)
-# Project:    https://github.com/scherrer-txt/cybrland
+# cybr-broot  lucid theme for broot
+# Project:    https://github.com/cybrcore/cybr-broot
 # Author:     scherrer-txt   |   License:     GPL-3.0
-# Source:     ~/.config/broot/skins/CYBRbroot.hjson
+# Source:     ~/.config/broot/skins/cybrcore.hjson
 # ---------------------------------------
 
 skin: {
-    # Basic DONE
+    # Basic
 	directory: ansi(1)
     file: ansi(6)
     pruning: ansi(15) none italic
     selected_line: ansi(13) ansi(9)
     tree: ansi(1)
 
-    # Search DONE
+    # Search
     char_match: ansi(3) none bold
     parent: ansi(1) none bold
 
-    # File properties DONE
+    # File properties
     exe: ansi(6)
     link: ansi(2)
     sparse: ansi(4)
 
-    # Prompt DONE
+    # Prompt
     input: ansi(6)
 
-    # Status bar DONE
+    # Status bar
     status_bold: rgb(03,
 	04,
 	08) ansi(1) bold
@@ -46,18 +46,18 @@ skin: {
 	04,
 	08) ansi(1)
 
-    # Flag status DONE
+    # Flag status
     flag_label: ansi(4)
     flag_value: ansi(4) bold
 
-    # Background DONE
+    # Background
     default: none none
 
-    # Scrollbar DONE
+    # Scrollbar
     scrollbar_track: ansi(9)
     scrollbar_thumb: ansi(1)
 
-    # Git DONE
+    # Git
     git_branch: ansi(13)
     git_deletions: ansi(9)
     git_insertions: ansi(2)
@@ -68,10 +68,10 @@ skin: {
     git_status_new: ansi(2) none bold
     git_status_other: ansi(5)
 
-    # Staging area DONE
+    # Staging area
     staging_area_title: ansi(3)
 
-    # Documentation DONE
+    # Documentation
     help_bold: ansi(1) none bold
     help_code: ansi(2)
     help_headers: ansi(6)
@@ -79,18 +79,18 @@ skin: {
     help_paragraph: ansi(1)
     help_table_border: ansi(1)
 
-    # Device column DONE
+    # Device column
     device_id_major: ansi(5)
     device_id_minor: ansi(5)
     device_id_sep: ansi(5)
 
-    # Counts column DONE
+    # Counts column
     count: ansi(6)
 
-    # Dates column DONE
+    # Dates column
     dates: ansi(1)
 
-    # Permissions column DONE
+    # Permissions column
     group: ansi(6)
     owner: ansi(6)
     perm__: ansi(1)
@@ -98,36 +98,36 @@ skin: {
     perm_w: ansi(3)
     perm_x: ansi(2)
 
-    # Hex preview DONE
+    # Hex preview
     hex_null: ansi(9)
     hex_ascii_graphic: ansi(1)
     hex_ascii_whitespace: ansi(7)
     hex_ascii_other: ansi(6)
     hex_non_ascii: ansi(3)
 
-    # Preview DONE
+    # Preview
     preview: ansi(1) none
     preview_line_number: ansi(9) none
     preview_match: ansi(3) none bold
     preview_title: ansi(1) none
 
-    # Used for displaying errors DONE
+    # Used for displaying errors
     file_error: ansi(0)
 
-    # Content searches DONE
+    # Content searches
     content_extract: ansi(5) ansi(13)
     content_match: ansi(3) none underlined
 
-    # Used in status line DONE
+    # Used in status line
     purpose_bold: ansi(3) ansi(11) bold
     purpose_ellipsis: ansi(3)
     purpose_italic: ansi(3) ansi(11) italic
     purpose_normal: ansi(13)
 
-    # Modal indicator DONE
+    # Modal indicator
     mode_command_mark: ansi(4) ansi(12)
 
-    # File system occupation DONE
+    # File system occupation
     good_to_bad_0: ansi(4)
     good_to_bad_1: ansi(4)
     good_to_bad_2: ansi(2)
