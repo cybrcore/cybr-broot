@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-broot-banner.png" height=200px/>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-broot-banner-top.png"/>
 
 # Showcase
 <img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-broot.png"/>
